@@ -14,15 +14,16 @@
     let variable1 = 10;
     console.log(variable1);
 
-    let calculation = 2+2;
+    //const variable cannot be reassigned a value.
+    const calculation = 2+2;
     console.log(calculation);
     console.log(calculation + 10);
 
-    let result = calculation + 2;
+    const result = calculation + 2;
     console.log(result);
 
 
-    let message = 'Hey Ali';
+    const message = 'Hey Ali';
     console.log(message); 
 
    //reassigning a value to the same variable.
@@ -32,7 +33,19 @@
     variable1 = variable1 + 1;
     console.log(variable1);
 
+    //type1 to create a variable.  (use if changes required)
+    let variable4 = 5;
 
+    //type2 to create a variable. (use as default)
+    const variable2 = 20;
+
+    //type3 to create a variable.
+    var variable3 = 3; 
+
+    //checking the type of variable.
+    console.log(typeof variable1);
+    console.log(typeof message);
+  
 
 
   </script>
