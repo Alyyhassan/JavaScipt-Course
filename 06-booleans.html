@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booleans</title>
+  </head>
+
+  <body>
+  
+  <script>
+    
+    if (false) {                                         
+      console.log('Print this if statement');
+    } else {                                           //Two-Way Selection (if-else)
+      console.log('Print this else statement');
+    }
+  
+    const age = 19;
+
+    if (age >= 25) {
+      console.log('Almost there !');
+    } else if (age > 18) {
+      console.log('Congrats! you are now able to drive the car');            //Multi-Way Selection (if ,else-if ,else)
+    } else {
+      console.log('No you cannot drive the car its illegal');
+      
+    } 
+    console.log(true && true );                      // AND operator checks both the condition should be true.
+
+    console.log(0.2 >=0 && 0.2 < 1/3);
+
+    console.log(true || false);                      // OR operator checks atleast one condition should be true.
+
+    console.log(!true);                                
+    console.log(!false);                              // NOT operator flips the given condition.  
+  
+
+    if (5) {
+    console.log('truthy');                              //use of truthy
+    }
+
+    const cartQuantity = 5;
+    if (cartQuantity) {
+      console.log('cart has products');                 //True
+    }
+
+    console.log(!0);                                
+    console.log('text' / 5);                            //Nan 
+    
+    let variable1;
+    console.log(variable1);                             //undefined
+
+    const variable2 = undefined;                        //Undefined
+    console.log(variable2);
+
+  
+
+    const result = 3 >= 2 ? 'truthy' : 'falsy';               // Use of Ternary  Operator.(?)
+    console.log(result);
+
+
+    if (true) {
+      console.log('print it');
+    }
+
+    true && console.log('yes print again')                    // Guard operator shortcut
+
+
+    const message = 5 && ('heyy');
+    console.log(message);
+    
+    const currency = undefined || 'EUR';                      //defauult OR operator
+    console.log(currency);
+
+  </script>
+
+  </body>
+  </html> 
